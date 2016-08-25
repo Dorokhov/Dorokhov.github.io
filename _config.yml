@@ -1,8 +1,38 @@
-excerpt_separator: ""
-pygments: true
+# visit https://github.com/mojombo/jekyll/wiki/Configuration for more settings
+
+paginate: 10
+paginate_path: "page:num"
+exclude: ["README.md", "vendor"] # files to exclude
+highlighter: pygments
 markdown: kramdown
-url: http://Dorokhov.github.io
-title: VDorokhov
-tagline: Developer Notes
-description: My awesome new site
-paginate: 5
+disqus: VDorokhov
+title: Dorokhov
+#google_analytics:
+
+defaults:
+  -
+    scope:
+      path: "" # empty string for all files
+    values:
+      title: Dorokhov
+
+description: Vladimir Dorokhov
+author:
+  name: Vladimir Dorokhov
+  github: dorokhov
+  #twitter: 
+  bio: Software Developer
+  #email_md5: 
+
+permalink: /:title/
+
+gems: ["jekyll-paginate"]
+
+github_repo_url: https://github.com/dorokhov/dorokhov.github.io
+
+rss_path: feed.xml
+#rss_url: 
+categories_path: categories/
+#tags_path: tags.html
+
+BASE_PATH:
