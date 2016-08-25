@@ -1,7 +1,7 @@
 # visit https://github.com/mojombo/jekyll/wiki/Configuration for more settings
 
-paginate: 10
-paginate_path: "page:num"
+#paginate: 10
+#paginate_path: "page:num"
 exclude: ["README.md", "vendor"] # files to exclude
 highlighter: pygments
 markdown: kramdown
@@ -21,12 +21,12 @@ author:
   name: Vladimir Dorokhov
   github: dorokhov
   #twitter: 
-  bio: Software Developer
+  #bio: Software Developer
   #email_md5: 
 
 permalink: /:title/
 
-gems: ["jekyll-paginate"]
+#gems: ["jekyll-paginate"]
 
 github_repo_url: https://github.com/dorokhov/dorokhov.github.io
 
