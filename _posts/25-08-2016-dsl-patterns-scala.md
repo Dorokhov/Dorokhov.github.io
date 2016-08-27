@@ -4,7 +4,7 @@ title: DSL Patterns. Scala examples
 date: 2016-08-26 00:17
 author: Vladimir
 comments: true
-categories: [Uncategorized, Uncategorized]
+categories: [Scala, DSL]
 ---
 
 
