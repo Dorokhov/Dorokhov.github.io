@@ -5,7 +5,7 @@ paginate_path: "page:num"
 exclude: ["README.md", "vendor"] # files to exclude
 highlighter: pygments
 markdown: kramdown
-disqus: Vladimir Dorokhov
+disqus: http-dorokhov-github-io
 #title: Dorokhov
 #google_analytics:
 
