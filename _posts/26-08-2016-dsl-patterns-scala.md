@@ -7,6 +7,4 @@ comments: true
 categories: [Scala, DSL]
 ---
 
-
-
 I'm getting fun learning Scala language.
