@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Applying Lambda Architecture on Azure
-date: 2017-03-26 13:00
+date: 2017-03-26 09:00
 author: Vladimir
 comments: true
 categories: [Azure, Lambda Architecture, Hadoop, Redis, Stream Analytics]
