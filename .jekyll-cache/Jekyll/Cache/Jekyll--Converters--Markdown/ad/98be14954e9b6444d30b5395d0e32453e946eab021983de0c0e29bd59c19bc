@@ -1,0 +1,89 @@
+I"§<div id="image-gallery" class="image-gallery">
+  <div id="gallery-sizer" class="gallery-sizer"></div>
+  
+  <div class="image-wrapper">
+    <a href="http://localhost:4000/assets/photography/weymouth_2020/20200818_1940200.jpg" data-responsive=" http://localhost:4000/assets/photography/weymouth_2020/20200818_194020.jpg 20200818_194020" class="image">
+      <img alt="" src="http://localhost:4000/assets/photography/weymouth_2020/20200818_194020.jpg" />
+    </a>
+  </div>
+  
+  <div class="image-wrapper">
+    <a href="http://localhost:4000/assets/photography/weymouth_2020/20200820_133906.jpg" data-responsive=" http://localhost:4000/assets/photography/weymouth_2020/20200820_133906.jpg 20200820_133906" class="image">
+      <img alt="" src="http://localhost:4000/assets/photography/weymouth_2020/20200820_133906.jpg" />
+    </a>
+  </div>
+  
+  <div class="image-wrapper">
+    <a href="http://localhost:4000/assets/photography/weymouth_2020/DSC_5315.jpg" data-responsive=" http://localhost:4000/assets/photography/weymouth_2020/DSC_5315.jpg DSC_5315" class="image">
+      <img alt="" src="http://localhost:4000/assets/photography/weymouth_2020/DSC_5315.jpg" />
+    </a>
+  </div>
+  
+  <div class="image-wrapper">
+    <a href="http://localhost:4000/assets/photography/weymouth_2020/DSC_5358.jpg" data-responsive=" http://localhost:4000/assets/photography/weymouth_2020/DSC_5358.jpg DSC_5358" class="image">
+      <img alt="" src="http://localhost:4000/assets/photography/weymouth_2020/DSC_5358.jpg" />
+    </a>
+  </div>
+  
+  <div class="image-wrapper">
+    <a href="http://localhost:4000/assets/photography/weymouth_2020/DSC_5392.jpg" data-responsive=" http://localhost:4000/assets/photography/weymouth_2020/DSC_5392.jpg DSC_5392" class="image">
+      <img alt="" src="http://localhost:4000/assets/photography/weymouth_2020/DSC_5392.jpg" />
+    </a>
+  </div>
+  
+  <div class="image-wrapper">
+    <a href="http://localhost:4000/assets/photography/weymouth_2020/DSC_5421.jpg" data-responsive=" http://localhost:4000/assets/photography/weymouth_2020/DSC_5421.jpg DSC_5421" class="image">
+      <img alt="" src="http://localhost:4000/assets/photography/weymouth_2020/DSC_5421.jpg" />
+    </a>
+  </div>
+  
+  <div class="image-wrapper">
+    <a href="http://localhost:4000/assets/photography/weymouth_2020/DSC_5431.jpg" data-responsive=" http://localhost:4000/assets/photography/weymouth_2020/DSC_5431.jpg DSC_5431" class="image">
+      <img alt="" src="http://localhost:4000/assets/photography/weymouth_2020/DSC_5431.jpg" />
+    </a>
+  </div>
+  
+  <div class="image-wrapper">
+    <a href="http://localhost:4000/assets/photography/weymouth_2020/DSC_5435.jpg" data-responsive=" http://localhost:4000/assets/photography/weymouth_2020/DSC_5435.jpg DSC_5435" class="image">
+      <img alt="" src="http://localhost:4000/assets/photography/weymouth_2020/DSC_5435.jpg" />
+    </a>
+  </div>
+  
+  <div class="image-wrapper">
+    <a href="http://localhost:4000/assets/photography/weymouth_2020/DSC_5514.jpg" data-responsive=" http://localhost:4000/assets/photography/weymouth_2020/DSC_5514.jpg DSC_5514" class="image">
+      <img alt="" src="http://localhost:4000/assets/photography/weymouth_2020/DSC_5514.jpg" />
+    </a>
+  </div>
+  
+  <div class="image-wrapper">
+    <a href="http://localhost:4000/assets/photography/weymouth_2020/DSC_5520.jpg" data-responsive=" http://localhost:4000/assets/photography/weymouth_2020/DSC_5520.jpg DSC_5520" class="image">
+      <img alt="" src="http://localhost:4000/assets/photography/weymouth_2020/DSC_5520.jpg" />
+    </a>
+  </div>
+  
+</div>
+
+<script>
+$(document).ready(function() {
+  var $gallery = $("#image-gallery").lightGallery({
+    thumbnail: false,
+    selector: '.image'
+  });
+});
+
+// init isotope
+var $grid = $('#image-gallery').isotope({
+  percentPosition: true,
+  columnWidth: '#gallery-sizer',
+  itemSelector: '.image-wrapper',
+  layoutMode: "masonry"
+});
+
+// layout Isotope after each image loads
+$grid.imagesLoaded().progress( function() {
+  $grid.masonry();
+});
+
+</script>
+
+:ET
